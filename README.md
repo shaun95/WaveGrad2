@@ -20,7 +20,7 @@ pip3 install -r requirements.txt
 
 ## Inference
 
-You have to download the [pretrained models]() and put them in ``output/ckpt/LJSpeech/``.
+You have to download the [pretrained models](https://drive.google.com/drive/folders/1Kzh3AxVl5cpVixs18-eDDPnKOsdp8Ep9?usp=sharing) and put them in ``output/ckpt/LJSpeech/``.
 
 For English single-speaker TTS, run
 ```
@@ -100,11 +100,11 @@ tensorboard --logdir output/log/LJSpeech
 ```
 
 to serve TensorBoard on your localhost.
-<!-- The loss curves, synthesized mel-spectrograms, and audios are shown.
+The loss curves, synthesized mel-spectrograms, and audios are shown.
 
 ![](./img/tensorboard_loss.png)
 ![](./img/tensorboard_spec.png)
-![](./img/tensorboard_audio.png) -->
+![](./img/tensorboard_audio.png)
 
 # Implementation Issues
 
